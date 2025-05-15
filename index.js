@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     encendido = !encendido;
-    boton.textContent = encendido ? "⛔ Apagar Ciclo" : "🔁 Encender Ciclo";
+    boton.textContent = encendido ? "Apagar Ciclo" : "Encender Ciclo";
   });
 });
